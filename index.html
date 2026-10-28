@@ -3,44 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Maze Quest</title>
-  <style>
-    :root { color-scheme: light; }
-    body { margin: 0; background: #FFF8EC; color: #1F2A44; font: 17px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; }
-    main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
-    .hero { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
-    .hero img { width: 120px; height: 120px; border-radius: 26px; }
-    h1 { font-size: 34px; margin: 0; }
-    h2 { font-size: 20px; margin-top: 32px; }
-    .muted { color: #5B6785; }
-    a { color: #147E96; }
-  </style>
+  <title>Fount LLC</title>
+  <meta name="description" content="Fount LLC makes playful apps for curious families, including Maze Quest.">
+  <link rel="icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+<header>
+  <a class="brand" href="/">Fount<span>.</span></a>
+  <nav>
+    <a href="#apps">Apps</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
 <main>
-  <div class="hero">
-    <img src="icon.png" alt="Maze Quest app icon">
+  <h1>Playful apps for curious families.</h1>
+  <p class="lead">Fount LLC is a small Minnesota studio making apps that turn kids' imagination into something they can explore.</p>
+
+  <h2 id="apps">Our apps</h2>
+  <div class="card">
+    <img src="/maze-quest/icon.png" alt="Maze Quest app icon">
     <div>
-      <h1>Maze Quest</h1>
-      <p class="muted">Draw a maze on paper, snap a photo, and walk through it in 3D.</p>
+      <h3>Maze Quest <span class="badge">Coming soon</span></h3>
+      <p>Draw a maze on paper, snap a photo, and walk through it in 3D.</p>
+      <p class="links"><a href="/maze-quest/">Support</a><a href="/maze-quest/privacy.html">Privacy</a></p>
     </div>
   </div>
 
-  <h2>Support</h2>
-  <p>Need help or found a bug? Email <a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a> and we'll get back to you.</p>
-
-  <h2>Tips for great photo mazes</h2>
-  <ul>
-    <li>Draw with a dark pen or marker on white paper.</li>
-    <li>Take the photo in good light, straight on, with the whole maze in view.</li>
-    <li>If the app says there's no way through, use the eraser to open the gap, then tap Next.</li>
-    <li>Back up your saved mazes from the bottom of the home screen before changing phones.</li>
-  </ul>
-
-  <h2>Privacy</h2>
-  <p>Maze Quest collects no personal information. Read the <a href="privacy.html">privacy policy</a>.</p>
-
-  <p class="muted">© 2026 Fount LLC</p>
+  <h2 id="contact">Contact</h2>
+  <p>Questions, ideas or help with one of our apps: <a href="mailto:support@founthome.com">support@founthome.com</a></p>
 </main>
+
+<footer>© 2026 Fount LLC · Minnesota, USA</footer>
 </body>
 </html>
